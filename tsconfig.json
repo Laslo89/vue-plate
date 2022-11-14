@@ -1,0 +1,26 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "exclude": ["./dist/**/*", "node_modules"],
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "paths": {
+      "@src": ["src/index.ts", "src/index.js", "src/index.vue", "src/index.scss", "src/index.json"],
+      "@src/*": ["src/*"],
+      "@styles": ["src/styles/index.ts", "src/styles/index.js", "src/styles/index.vue", "src/styles/index.scss", "src/styles/index.json"],
+      "@styles/*": ["src/styles/*"],
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+  },
+
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    }
+  ]
+}

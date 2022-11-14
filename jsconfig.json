@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@styles/*": ["src/styles/*"]
+    },
+    "target": "es6",
+    "module": "esnext"
+  },
+  "include": ["src"]
+}
