@@ -21,8 +21,6 @@ export default defineConfig({
     alias: {
       '@src': resolve(__dirname, './src'),
       '@styles': resolve(__dirname, './src/styles'),
-      // '@src': fileURLToPath(new URL('./src', import.meta.url)),
-      // '@/*': resolve(__dirname, 'src/*'),
     },
     extensions: ['.js', '.ts', '.json', '.vue', '.svg', 'scss'],
   },
