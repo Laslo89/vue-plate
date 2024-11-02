@@ -2,6 +2,13 @@
 
 vue-plate is a boilerplate project for Vue.js that provides a basic setup for project development. It includes configurations for linting, code styles, and TypeScript to ensure a consistent and clean codebase, optimized for use with Visual Studio Code (VSCode).
 
+## Installation
+
+```sh
+git clone <https://github.com/Laslo89/vue-plate.git>
+cd vue-plate
+```
+
 ## Features
 
  • Vue 3 with TypeScript: Supports development with modern Vue.js and TypeScript.
@@ -20,13 +27,7 @@ vue-plate is a boilerplate project for Vue.js that provides a basic setup for pr
    • Stylelint
    • Volar for Vue 3 support.
 
-## Customize configuration
-
-## Project Setup
-
-```sh
-yarn
-```
+## Scripts
 
 ### Compile and Hot-Reload for Development
 
