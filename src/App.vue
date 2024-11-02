@@ -1,7 +1,7 @@
 <template>
   <div class="test-body">
     <header>this is the a awesome header text</header>
-    <main>
+    <main style="display: inline; padding: 0">
       <TestComponent>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum est facere recusandae ab non deserunt illum
         fugiat ipsam, dolor iste velit, eaque totam quae dolores incidunt rem molestiae enim. Rerum?
@@ -12,14 +12,16 @@
 
 <script setup lang="ts">
 import TestComponent from '@src/components/test-component'
+
+defineProps<{
+  foo: string
+  bar?: number
+}>()
 </script>
 
 <style lang="scss">
 .test-body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  padding: 0;
 }
 </style>

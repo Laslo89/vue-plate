@@ -1,25 +1,26 @@
-# basic-project-setup
+# vue-plate
 
-This template should help get you started developing with Vue 3 in Vite.
+vue-plate is a boilerplate project for Vue.js that provides a basic setup for project development. It includes configurations for linting, code styles, and TypeScript to ensure a consistent and clean codebase, optimized for use with Visual Studio Code (VSCode).
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+ • Vue 3 with TypeScript: Supports development with modern Vue.js and TypeScript.
+ • ESLint: Linting for JavaScript, TypeScript, and Vue files to enforce code quality and best practices.
+ • Prettier: Automatic code formatting for consistent styling.
+ • Stylelint: Linting for CSS and SCSS, including support for style-blocks in Vue components.
+ • VSCode Integration: Pre-configured settings for seamless development in Visual Studio Code.
+ • Path Aliases: Simplified import paths for cleaner and more manageable code.
 
-## Type Support for `.vue` Imports in TS
+## Prerequesities
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+ • VSCode: Visual Studio Code as the recommended editor.
+ • VSCode Extensions:
+   • ESLint
+   • Prettier - Code formatter
+   • Stylelint
+   • Volar for Vue 3 support.
 
 ## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
