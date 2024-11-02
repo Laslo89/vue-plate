@@ -9,8 +9,7 @@
     "baseUrl": ".",
     /* paths */
     "paths": {
-      "@src": ["./src"],
-      "@styles": ["./src/styles"]
+      "@src/*": ["src/*"]
     }
   }
 }

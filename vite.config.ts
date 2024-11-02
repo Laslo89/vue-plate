@@ -20,7 +20,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '@src': resolve(__dirname, './src'),
-      '@styles': resolve(__dirname, './src/styles'),
     },
     extensions: ['.js', '.ts', '.json', '.vue', '.svg', 'scss'],
   },
