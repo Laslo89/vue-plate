@@ -1,16 +1,5 @@
 <template>
-  <div class="my-component">
-    <slot></slot>
-  </div>
+  <p class="my-component"><slot></slot></p>
 </template>
 
-<style lang="scss">
-.my-component {
-  display: flex;
-  width: 50%;
-  padding: 1rem;
-  margin-inline: auto;
-  color: #ffffff;
-  background-color: blue;
-}
-</style>
+<script setup lang="ts"></script>
